@@ -37,9 +37,10 @@ button {
     border: 2px solid #F9FAF8; 
 }
 
-.links a:link, a:visited, a:hover, a:active, .header-text p, .content p {
+.links a:link, a:visited, a:hover, a:active, .header-text p, .content p, .footer, img {
     color: #E5E7EB;
     font-size: 18px;
+    text-decoration: none;
 }
 
 .content p {
@@ -68,12 +69,53 @@ button {
     font-size: 24px;
 }
 
-/* flexboxing */
-
 .quote-content p {
     color: #1F2937;
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
+}
+
+.info, .footer {
+    text-align: center;
+}
+
+.footer {
+    padding: 20px 0px;
+}
+
+.navbar, .header, .info, .quote, .action {
+    padding: 0px 96px;
+}
+
+.navbar {
+    padding: 8px 96px;
+}
+
+
+/* flexboxing */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.navbar, .header, .info-content, .action{
+    display: flex;
+    flex-direction: row;
+}
+
+.header, .info, .quote, .action {
+    flex-grow: 1;
+}
+
+.links{
+    margin-left: auto;
+}
+
+.links ul {
+    display: flex;
+    gap: 24px;
 }
 

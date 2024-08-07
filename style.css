@@ -1,0 +1,79 @@
+/* fonts and decoration */
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body, p, h1, h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+button, .action {
+    background-color: #3882F6;
+}
+
+.header, .navbar, .footer{
+    background-color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.logo, button {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+button {
+    border-radius: 8px;
+    border: none;
+}
+
+.action-button button {
+    border: 2px solid #F9FAF8; 
+}
+
+.links a:link, a:visited, a:hover, a:active, .header-text p, .content p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.content p {
+    color: #1F2937;
+}
+
+.links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-text h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.info-header h2, .quote-author p {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.quote-author p {
+    font-size: 24px;
+}
+
+/* flexboxing */
+
+.quote-content p {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
